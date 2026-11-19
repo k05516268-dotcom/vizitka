@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Моя визитка</title>
+  <style>
+    /* CSS - внешний вид страницы */
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #1a1a2e;
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      background: #ffffff;
+      border-radius: 16px;
+      padding: 40px 48px;
+      max-width: 420px;
+      text-align: center;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    }
+    .avatar {
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      margin: 0 auto 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    h1 {
+      margin: 8px 0 4px;
+      font-size: 26px;
+      color: #222;
+    }
+    .role {
+      color: #667eea;
+      font-size: 15px;
+      margin-bottom: 20px;
+    }
+    p {
+      color: #555;
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .links a {
+      display: inline-block;
+      margin: 6px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      background: #667eea;
+      color: #fff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    .links a:hover {
+      background: #5a6fd6;
+    }
+  </style>
+</head>
+<body>
+  <!-- HTML - каркас страницы: что на ней лежит -->
+  <div class="card">
+    <div class="avatar">К</div>
+    <h1>Константин</h1>
+    <div class="role">Дизайн и контент</div>
+    <p>Это моя первая страница-визитка. Я сделал её сам и выложил на GitHub.</p>
+    <div class="links">
+      <a href="mailto:hello@example.com">Написать письмо</a>
+      <a href="https://t.me/username" target="_blank">Telegram</a>
+    </div>
+  </div>
+</body>
+</html>
